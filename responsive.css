@@ -1,0 +1,42 @@
+@media only screen and (max-width:600px) {
+
+    .first-section{
+        min-height: 480px;
+    }
+
+    .first-text-section{
+        min-height: 400px;
+        background-color: black;
+        padding: 0px 20px;
+
+    }
+    
+    .first-text-section h1{
+        font-size: 70px;
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        gap: 15px;
+    }
+
+    .first-text-section p{
+        font-size: 14px !important;
+    }
+    
+    .img-1{
+        background: url(yingchou-han-IJrIeCs3D4g-unsplash.jpg);
+        width:15% !important;
+        background-size: cover;
+        border-radius: 50%;
+        display: flex;
+    }
+    
+    .img-2{
+        background: url(linkedin-sales-solutions-VKJt1EZHlWs-unsplash\ \(2\).jpg);
+        width:30% !important;
+        background-size: cover;
+        display: flex;
+        
+    }
+    
+}
